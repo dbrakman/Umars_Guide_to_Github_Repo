@@ -7,3 +7,5 @@ From the terminal, make a directory to put your code in. That'll be the "remote 
     git init
 , which is executed via the terminal from within the directory. A Github repository is an online storage spot for your code. Since the "real" version is stored on Github, that online repository is the "origin". Basically we tell our computer 'Hey computer, I created this repo on github, when I push, I want my code to go to this github repo'. To do this, in your terminal type 
     git remote add origin https://github.com/nameOfYourRepo.git
+
+It was at this point that I realized that he didn't explain authentication either. I guess it's not a problem if you haven't told Github you want two-factor authentication, so you'll just enter your password from the command line?
